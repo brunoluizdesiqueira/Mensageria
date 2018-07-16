@@ -1,0 +1,10 @@
+/Users/bruno/Projetos/net-core/Mensageria/Mensageria.Domain/bin/Debug/netstandard2.0/Mensageria.Domain.deps.json
+/Users/bruno/Projetos/net-core/Mensageria/Mensageria.Domain/bin/Debug/netstandard2.0/Mensageria.Domain.dll
+/Users/bruno/Projetos/net-core/Mensageria/Mensageria.Domain/bin/Debug/netstandard2.0/Mensageria.Domain.pdb
+/Users/bruno/Projetos/net-core/Mensageria/Mensageria.Domain/obj/Debug/netstandard2.0/Mensageria.Domain.csproj.CoreCompileInputs.cache
+/Users/bruno/Projetos/net-core/Mensageria/Mensageria.Domain/obj/Debug/netstandard2.0/Mensageria.Domain.AssemblyInfoInputs.cache
+/Users/bruno/Projetos/net-core/Mensageria/Mensageria.Domain/obj/Debug/netstandard2.0/Mensageria.Domain.AssemblyInfo.cs
+/Users/bruno/Projetos/net-core/Mensageria/Mensageria.Domain/obj/Debug/netstandard2.0/Mensageria.Domain.dll
+/Users/bruno/Projetos/net-core/Mensageria/Mensageria.Domain/obj/Debug/netstandard2.0/Mensageria.Domain.pdb
+/Users/bruno/Projetos/net-core/Mensageria/Mensageria.Domain/bin/Debug/netstandard2.0/Mensageria.Shared.dll
+/Users/bruno/Projetos/net-core/Mensageria/Mensageria.Domain/bin/Debug/netstandard2.0/Mensageria.Shared.pdb

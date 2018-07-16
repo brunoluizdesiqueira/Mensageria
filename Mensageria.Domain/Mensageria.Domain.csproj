@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mensageria.Shared\Mensageria.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AMQPNetLite" Version="2.1.3" />
+    <PackageReference Include="AMQPNetLite.Core" Version="2.1.3" />
+    <PackageReference Include="AMQPNetLite.Serialization" Version="2.1.3" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
