@@ -26,15 +26,13 @@ namespace Mensageria.Domain.Entities
             {
                 PrefixList = new[] { "Mensageria.Domain.Entities" }
             });
-
-            //Run().Wait();
         }
 
         public async Task Run()
         { 
             this.receiver = new ReceiverLink(this.session, this.name, this.address);
             this.receiver.Start(5, OnMessageCallback);
-            //Console.Read();
+            Console.Read();
         }
 
         private void OnMessageCallback(IReceiverLink receiver, Message message)
