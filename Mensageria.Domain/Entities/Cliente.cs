@@ -14,6 +14,10 @@ namespace Mensageria.Domain.Entities
                 this.Caracteristica = caracteristica;          
         }
 
+        public Cliente()
+        {
+        }
+
         public override string ToString()
         {
             return string.Format(

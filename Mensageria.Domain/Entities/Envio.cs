@@ -31,6 +31,7 @@ namespace Mensageria.Domain.Entities
                 PrefixList = new[] { "Mensageria.Domain.Entities" }
             });
         }
+        
         public void Send()
         {
             this.sender = new SenderLink(this.session, this.name, this.address);
@@ -39,7 +40,7 @@ namespace Mensageria.Domain.Entities
                 for (int i = 0; i < this.quantidade; i++)
                 {      
                     SendMessage(this.sender, "Cliente", this.cliente, serializer);
-                    Console.WriteLine("Enviado: \n{0}", cliente.ToString());
+                    Console.WriteLine("Enviado: \n{0}", this.cliente.ToString());
                 }
            }
            finally
@@ -48,6 +49,7 @@ namespace Mensageria.Domain.Entities
                session.Close();
            }
         }
+
         private void SendMessage(SenderLink sender, string subject, object value, AmqpSerializer serializer)
         {
             this.message = new Message() { BodySection = new AmqpValue<object>(value, serializer) };
